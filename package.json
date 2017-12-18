@@ -1,27 +1,28 @@
 {
-  "name": "lamassu-bitstamp",
-  "version": "1.0.4",
-  "description": "Lamassu Bitstamp ticker and trader",
+  "name": "lamassu-gemini",
+  "version": "0.0.1",
+  "description": "Lamassu Gemini ticker and trader based on the official Lamassu Bitstamp module. (3rd-Party Developer: NOT affiliated with Lamassu or Gemini)",
+  "homepage": "https://github.com/benwiebe/lamassu-gemini",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lamassu/lamassu-bitstamp.git"
+    "url": "https://github.com/benwiebe/lamassu-gemini.git"
   },
   "keywords": [
     "Lamassu",
-    "Bitstamp",
+    "Gemini",
     "Bitcoin"
   ],
-  "author": "Lamassu (https://lamassu.is)",
+  "author": "Ben Wiebe (https://github.com/benwiebe/)",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/lamassu/lamassu-bitstamp/issues"
+    "url": "https://github.com/benwiebe/lamassu-gemini/issues"
   },
   "bin": {
-    "bitstamp-setup": "./setup"
+    "gemini-setup": "./setup"
   },
   "devDependencies": {},
   "dependencies": {

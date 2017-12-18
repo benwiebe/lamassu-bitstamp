@@ -2,9 +2,9 @@
 
 var _ = require('lodash');
 
-exports.NAME = 'Bitstamp';
+exports.NAME = 'Gemini';
 exports.SUPPORTED_MODULES = ['ticker', 'trader'];
-exports.API_ENDPOINT = 'https://www.bitstamp.net/api/';
+exports.API_ENDPOINT = 'https://api.gemini.com/v1/';
 
 
 exports.SATOSHI_FACTOR = 1e8;
