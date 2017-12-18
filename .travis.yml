@@ -2,6 +2,12 @@ language: node_js
 node_js:
   - '0.11'
   - '0.10'
+  - 'node'
 
 env:
   - TRAVIS=true
+
+notifications:
+  email: false
+script:
+  - 
