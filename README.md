@@ -8,6 +8,20 @@ Lamassu Gemini ticker and trader.
 Please note this is not an official module by Lamassu or Gemini and the developer is not affiliated with either company in any way. The module is, however, based upon
 [the official Lamassu Bitstamp module](https://github.com/lamassu/lamassu-bitstamp).
 
+This project is licensed under the 
+
+### License
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+[A copy of this license has been included as part of the project.](https://github.com/benwiebe/lamassu-gemini/blob/master/LICENSE)
 
 ### Testing
 
