@@ -14,7 +14,7 @@
     "Bitcoin"
   ],
   "author": "Ben Wiebe (https://github.com/benwiebe/)",
-  "license": "Unlicense",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/benwiebe/lamassu-gemini/issues"
   },
