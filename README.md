@@ -1,7 +1,8 @@
 lamassu-gemini
 ================
 
-[![Build Status](https://travis-ci.org/benwiebe/lamassu-gemini.svg?branch=master)](https://travis-ci.org/benwiebe/lamassu-gemini)
+master: [![Build Status](https://travis-ci.org/benwiebe/lamassu-gemini.svg?branch=master)](https://travis-ci.org/benwiebe/lamassu-gemini)
+dev: [![Build Status](https://travis-ci.org/benwiebe/lamassu-gemini.svg?branch=dev)](https://travis-ci.org/benwiebe/lamassu-gemini)
 
 Lamassu Gemini ticker and trader.
 
