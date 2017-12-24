@@ -29,5 +29,8 @@
     "axios": "^0.15.2",
     "bignumber.js": "^3.0.1",
     "lodash": "^4.17.2"
+  },
+  "scripts": {
+    "test": "cd test && bash ./test.sh"
   }
 }
