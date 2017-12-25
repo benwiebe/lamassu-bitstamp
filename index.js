@@ -2,7 +2,7 @@ const ticker = require('./lib/ticker')
 const trader = require('./lib/trader')
 
 const SUPPORTED_MODULES = ['ticker', 'trader']
-const NAME = 'BitStamp'
+const NAME = 'Gemini'
 
 exports.purchase = trader.purchase
 exports.sell = trader.sell

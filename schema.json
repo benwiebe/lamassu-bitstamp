@@ -1,6 +1,6 @@
 {
-  "code": "bitstamp",
-  "display": "Bitstamp",
+  "code": "gemini",
+  "display": "Gemini",
   "fields": [
     {
       "code": "clientId",
