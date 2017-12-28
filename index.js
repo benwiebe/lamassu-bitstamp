@@ -18,6 +18,7 @@ module.exports = {
   SUPPORTED_MODULES,
   purchase: trader.purchase,
   sell: trader.sell,
+  buy: trader.buy,
   ticker: ticker.ticker,
   config: config
 }
