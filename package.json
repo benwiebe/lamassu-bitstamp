@@ -18,9 +18,6 @@
   "bugs": {
     "url": "https://github.com/benwiebe/lamassu-gemini/issues"
   },
-  "bin": {
-    "gemini-setup": "./setup"
-  },
   "dependencies": {
     "axios": "^0.15.2",
     "bignumber.js": "^3.0.1",
