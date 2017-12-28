@@ -11,4 +11,7 @@ do
 	(( result += $? ))
 done
 
+../node_modules/.bin/mocha .
+(( result += $? ))
+
 exit $result
