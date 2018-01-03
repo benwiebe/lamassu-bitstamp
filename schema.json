@@ -3,13 +3,6 @@
   "display": "Gemini",
   "fields": [
     {
-      "code": "clientId",
-      "display": "Client ID",
-      "fieldType": "string",
-      "required": true,
-      "value": ""
-    },
-    {
       "code": "key",
       "display": "API key",
       "fieldType": "string",

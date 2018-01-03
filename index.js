@@ -9,16 +9,11 @@ exports.sell = trader.sell
 
 exports.balance = require('./lib/common').balance
 
-function config (cfg) {
-  trader.config(cfg)
-}
-
 module.exports = {
   NAME,
   SUPPORTED_MODULES,
   purchase: trader.purchase,
   sell: trader.sell,
   buy: trader.buy,
-  ticker: ticker.ticker,
-  config: config
+  ticker: ticker.ticker
 }
