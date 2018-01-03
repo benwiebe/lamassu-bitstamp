@@ -1,6 +1,6 @@
 {
   "name": "lamassu-gemini",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Lamassu Gemini ticker and trader based on the official Lamassu Bitstamp module. (3rd-Party Developer: NOT affiliated with Lamassu or Gemini)",
   "homepage": "https://github.com/benwiebe/lamassu-gemini",
   "main": "index.js",
