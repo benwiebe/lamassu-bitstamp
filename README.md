@@ -26,21 +26,14 @@ GNU General Public License for more details.
 
 ### Testing
 
-*Note: It is suggested you use the Gemini sandbox site as opposed to the live trading site. The procedure below assumes you will use the sandbox site, however you can use live credentials and simply not
-change the API URL if you so choose*
+#### Test Scripts
+The `test` directory contains two files for testing the module:
+* `test.sh` - a BASH script that will run `node -c` on the library files as well as `test_ticker.js` via `mocha`
+* `test_ticker.js` - a Python script for use with `mocha` that will run some basic test cases on `lib/ticker.js`
 
-1. [Create a new Gemini sandbox API key](https://exchange.sandbox.gemini.com/settings/api).
-2. On the API key creation page:
-  * Copy your API key and API secret to a safe place (you will need these in the next step)
-  * Make sure that `Fund Management` and `Trading` are checked, but NOT `Require session heartbeat`
-3. Open [`mockConfig.template.json`](https://github.com/benwiebe/lamassu-gemini/blob/master/test/mockConfig.template.json) and input your API key and API secret
-4. Rename `mockConfig.template.json` to `mockConfig.json`
-5. Open [`config.js`](https://github.com/benwiebe/lamassu-gemini/blob/master/config.js) and change the `API_ENDPOINT` to `https://api.sandbox.gemini.com/v1/` (if using sandbox credentials)
-6. Type this into your terminal:
+Currently, there is NO test for `lib/trader.js` as it requires a Gemini account to run the authenticated requests and thus is not compatible with the automated testing run by TravisCI.
 
-```bash
-npm update # in case you cloned via git
-npm test
-```
-
-NOTE: Two last tests depend on your account having $5 of available balance (both in USD and BTC). This should not be a problem if you use sandbox credentials.
+To run a test...
+* On Linux: run `npm test`
+* On Windows: run `npm run test-win`
+	* Note: This script does not include the `node -c` checks included in the BASH script

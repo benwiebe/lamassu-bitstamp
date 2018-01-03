@@ -1,0 +1,20 @@
+{
+  "code": "gemini",
+  "display": "Gemini",
+  "fields": [
+    {
+      "code": "key",
+      "display": "API key",
+      "fieldType": "string",
+      "required": true,
+      "value": ""
+    },
+    {
+      "code": "secret",
+      "display": "API secret",
+      "fieldType": "password",
+      "required": true,
+      "value": ""
+    }
+  ]
+}

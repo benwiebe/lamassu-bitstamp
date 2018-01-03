@@ -1,17 +1,19 @@
-'use strict';
+const ticker = require('./lib/ticker')
+const trader = require('./lib/trader')
 
-var _ = require('lodash');
+const SUPPORTED_MODULES = ['ticker', 'trader']
+const NAME = 'Gemini'
 
-_.merge(exports, require('./config'));
+exports.purchase = trader.purchase
+exports.sell = trader.sell
 
+exports.balance = require('./lib/common').balance
 
-// Ticker merhods:
-exports.ticker = require('./lib/ticker').ticker;
-
-
-// Trader methods:
-var trader = require('./lib/trader');
-exports.purchase = trader.purchase;
-exports.sell = trader.sell;
-
-exports.balance = require('./lib/common').balance;
+module.exports = {
+  NAME,
+  SUPPORTED_MODULES,
+  purchase: trader.purchase,
+  sell: trader.sell,
+  buy: trader.buy,
+  ticker: ticker.ticker
+}

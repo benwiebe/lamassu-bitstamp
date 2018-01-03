@@ -1,12 +1,9 @@
 {
   "name": "lamassu-gemini",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Lamassu Gemini ticker and trader based on the official Lamassu Bitstamp module. (3rd-Party Developer: NOT affiliated with Lamassu or Gemini)",
   "homepage": "https://github.com/benwiebe/lamassu-gemini",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/benwiebe/lamassu-gemini.git"
@@ -17,22 +14,21 @@
     "Bitcoin"
   ],
   "author": "Ben Wiebe (https://github.com/benwiebe/)",
-  "license": "Unlicense",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/benwiebe/lamassu-gemini/issues"
   },
-  "bin": {
-    "gemini-setup": "./setup"
+  "dependencies": {
+    "axios": "^0.15.2",
+    "bignumber.js": "^3.0.1",
+    "lodash": "^4.17.2"
+  },
+  "scripts": {
+    "test": "cd test && bash ./test.sh",
+    "test-win": "mocha"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "~1.8.1"
-  },
-  "dependencies": {
-    "async": "~0.2.10",
-    "lamassu-config": "^0.4.4",
-    "lodash": "^2.4.1",
-    "promptly": "~0.2.0",
-    "wreck": "^3.0.0"
+    "mocha": "^4.0.1",
+    "should": "^13.2.0"
   }
 }
