@@ -9,8 +9,6 @@ Lamassu Gemini ticker and trader.
 Please note this is not an official module by Lamassu or Gemini and the developer is not affiliated with either company in any way. The module is, however, based upon
 [the official Lamassu Bitstamp module](https://github.com/lamassu/lamassu-bitstamp).
 
-This project is licensed under the 
-
 ### License
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
